@@ -1,0 +1,5 @@
+101 arroz 5.50 alimentos
+102 feijao 7.20 alimentos
+103 carne_bovina 25.30 carnes
+104 refrigerante 4.50 bebidas
+105 iogurte 3.80 laticinios
