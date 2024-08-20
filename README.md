@@ -40,8 +40,8 @@ int buscaLinear(int arr[], int tamanho, int chave) {
 }
 
 int main() {
-    int arr[] = {2, 3, 4, 10, 40};
-    int chave = 10;
+    int arr[] = {10, 14, 19, 26, 27, 31, 33, 35, 42, 44};
+    int chave = 33;
     int tamanho = sizeof(arr) / sizeof(arr[0]);
     int resultado = buscaLinear(arr, tamanho, chave);
 
