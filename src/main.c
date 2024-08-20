@@ -15,7 +15,6 @@ int main() {
     inicio = clock();
 
     if (buscarProduto(nomeProduto, &produtoEncontrado)) {
-
         printf("+-----------------------------+\n");
         printf("| Produto encontrado:         |\n");
         printf("+-----------------------------+\n");
