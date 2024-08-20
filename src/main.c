@@ -15,13 +15,19 @@ int main() {
     inicio = clock();
 
     if (buscarProduto(nomeProduto, &produtoEncontrado)) {
-        printf("Produto encontrado:\n");
-        printf("Código: %d\n", produtoEncontrado.codigo);
-        printf("Nome: %s\n", produtoEncontrado.nome);
-        printf("Preço: %.2f\n", produtoEncontrado.preco);
-        printf("Setor: %s\n", produtoEncontrado.setor);
+
+        printf("+-----------------------------+\n");
+        printf("| Produto encontrado:         |\n");
+        printf("+-----------------------------+\n");
+        printf("| Código: %d\n", produtoEncontrado.codigo);
+        printf("| Nome: %s\n", produtoEncontrado.nome);
+        printf("| Preço: %.2f\n", produtoEncontrado.preco);
+        printf("| Setor: %s\n", produtoEncontrado.setor);
+        printf("+-----------------------------+\n");
     } else {
-        printf("Produto não cadastrado.\n");
+        printf("+-------------------------+\n");
+        printf("| Produto não cadastrado. |\n");
+        printf("+-------------------------+\n");
     }
 
     // Finaliza a medição de tempo
@@ -29,7 +35,7 @@ int main() {
 
     // Calcula o tempo de execução em segundos
     tempo_execucao = ((double) (fim - inicio)) / CLOCKS_PER_SEC;
-    printf("Tempo de execução: %.6f segundos\n", tempo_execucao);
+    printf("\n Tempo de execução: %.6f segundos\n", tempo_execucao);
 
     return 0;
 }
