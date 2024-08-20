@@ -54,6 +54,9 @@ int main() {
 }
 ```
 
+![linear_search-ezgif com-webp-to-gif-converter](https://github.com/user-attachments/assets/386aecd4-a3f4-4fff-ac26-1bd6dda0d3a3)
+
+
 ## Como rodar na minha maquina?
 
 Primeiro Clone o repositorio na sua maquina:
