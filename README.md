@@ -1,7 +1,7 @@
 <div>
 <br>
 
-<h1 align="center" style="font-weight: bold;">Busca Linear (Linear Search) 💻</h1>
+<h1 align="center" style="font-weight: bold;"> 🔍➡️ Busca Linear (Linear Search) 💻</h1>
 <p align="center">
     <a href="#tech">Tecnologias</a> •
     <a href="#about">Sobre o Algoritmo</a> •
