@@ -4,7 +4,7 @@
 
 #define ARQUIVO_PRODUTOS "produtos.txt"
 
-int buscarProduto(const char* nomeProduto, Produto* produtoEncontrado) {
+int buscarProduto(char* nomeProduto, Produto* produtoEncontrado) {
     FILE *arquivo = fopen(ARQUIVO_PRODUTOS, "r");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo de produtos.\n");

@@ -1,6 +1,3 @@
-#ifndef PRODUTO_H
-#define PRODUTO_H
-
 // Define o tamanho máximo do nome do produto
 #define MAX_NOME 100
 
@@ -30,6 +27,4 @@ typedef struct {
  produtoEncontrado: Ponteiro para a estrutura Produto onde o resultado da busca será armazenado.
  return: Retorna 1 se o produto for encontrado, 0 caso contrário.
 */
-int buscarProduto(const char* nomeProduto, Produto* produtoEncontrado);
-
-#endif
+int buscarProduto(char* nomeProduto, Produto* produtoEncontrado);
